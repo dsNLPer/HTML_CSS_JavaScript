@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>料理の注文</title>
+  <link rel="stylesheet" href="css/p15-1.css">
+</head>
+<body>
+  <h1>料理の注文</h1>
+  <div class="menu-area">
+    <h3>メニュー</h3>
+    <button id="btn-tempura">天ぷら</button>
+    <button id="btn-nikujaga">肉じゃが</button>
+    <button id="btn-oyako">親子丼</button>
+    <button id="btn-tendon">天丼</button>
+    <button id="btn-teishoku">豚生姜定食</button>
+    
+    <div class="other-order">
+      その他：<input type="text" id="input-other">
+      <button id="btn-other">その他注文</button>
+    </div>
+  </div>
+  <div class="serve-area">
+    <h3>提供待ち</h3>
+    <div id="order-list"></div> 
+    <button id="btn-serve">提供</button>
+  </div>
+  <script src="js/p15-1.js"></script>
+</body>
+</html>
