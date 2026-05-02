@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+}
+.menu-area, .serve-area {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+button {
+  margin: 5px;
+  padding: 5px 10px;
+}
+#order-list {
+  border: 1px solid #333;
+  min-height: 50px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
