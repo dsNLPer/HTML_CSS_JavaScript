@@ -1,0 +1,14 @@
+.converter-box {
+  border: 1px solid #000;
+  padding: 20px;
+  width: 400px;
+}
+.row {
+  margin-bottom: 20px;
+}
+input {
+  font-size: 1.2em;
+  padding: 5px;
+  width: 100px;
+  text-align: right;
+}
